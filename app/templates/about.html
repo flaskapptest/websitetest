@@ -1,0 +1,24 @@
+<!--about.html-->
+
+{% extends "base.html" %}
+{% block title %}About This Site{% endblock %}
+{% block body %}
+<div class="jumbotron">
+  <h1>Welcome to my website!</h1>
+  <p class="lead">This site was created using the Flask framework on top of Python 3, and hosted on PythonAnywhere</p>
+</div>
+
+<div class='container'>
+    <li role="presentation"><a href="https://www.python.org/" target="_blank">Python</a></li>
+    <p> Python is a simple high level interpreted programming language designed for ease of use.</p>
+
+     <li role="presentation"><a href="http://flask.pocoo.org" target="_blank">Flask</a></li>
+     <p> Flask is a python framework for developing web applications.</p>
+
+     <li role="presentation"><a href="https://www.pythonanywhere.com/" target="_blank">PythonAnywhere</a></li>
+     <p>Python Anywhere is a gratis service to host, run, and code Python on someone else's servers.</p>
+</div>
+
+
+
+{% endblock %}
